@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizMate | Tarih Sınavlarında Yanındayız</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .btn-effect {
+      transition: transform 0.15s ease;
+    }
+    .btn-effect:active {
+      transform: scale(0.95);
+    }
+    .floating-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 50;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="bg-gray-800 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-yellow-400">QuizMate</h1>
+      <nav>
+        <ul class="flex gap-6">
+          <li><a href="#services" class="hover:text-yellow-300 btn-effect">Hizmetler</a></li>
+          <li><a href="#pricing" class="hover:text-yellow-300 btn-effect">Ücretler</a></li>
+          <li><a href="#goals" class="hover:text-yellow-300 btn-effect">Hedefler</a></li>
+          <li><a href="#contact" class="hover:text-yellow-300 btn-effect">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-center py-20 bg-gradient-to-b from-gray-900 to-gray-800">
+    <h2 class="text-4xl font-extrabold mb-4">Tarih Sınavlarında Yardımcı Asistanınız</h2>
+    <p class="text-lg text-gray-300 mb-8">QuizMate ile başarı garantili destek al, sınavlarda fark yarat!</p>
+    <a href="#contact" class="bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-300 btn-effect">Destek Al</a>
+  </section>
+
+  <section id="services" class="py-16 bg-gray-800">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-8 text-yellow-400">Hizmetlerimiz</h3>
+      <div class="grid md:grid-cols-2 gap-8 text-center">
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">Anlık Sınav Yardımı</h4>
+          <p>Sınav esnasında bire bir destek ve doğru cevaplar.</p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">Önceden Soru Analizi</h4>
+          <p>Öğretmen tarzına özel tahmin ve kaynaklı analiz desteği.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-16 bg-gray-900">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-yellow-400 mb-8">Ücretlendirme</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-800 p-6 rounded-xl">
+          <h4 class="text-xl font-bold mb-2">Tek Sınavlık Yardım</h4>
+          <p class="mb-4">1 sınavlık birebir destek</p>
+          <p class="text-yellow-300 text-2xl font-bold">₺500</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl border border-yellow-400">
+          <h4 class="text-xl font-bold mb-2">3 Sınavlık Paket</h4>
+          <p class="mb-4">3 ayrı sınav için tam destek</p>
+          <p class="text-yellow-300 text-2xl font-bold">₺1400</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="goals" class="py-16 bg-gray-800">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-yellow-400 mb-6">Hedefler & Amaçlar</h3>
+      <p class="text-gray-300 max-w-3xl mx-auto">
+        Öğretmenlik alanı ile ilgili formasyon alacak veya Tarih, İnkılap, Türkçe, İngilizce (sadece ilk sene öğrencileri) gibi derslerde zorlanan, uzaktan eğitimle bu dersleri alan öğrencilere yardımcı olmak için kurulan bir sistemdir. 
+        Bu sistem öğrencilerin kendi alan derslerine odak vermelerini, branşlarında daha fazla gelişmelerini sağlamak amacıyla oluşturulmuştur. 
+        Cevapların insanlar tarafından verildiği unutulmamalıdır. Öğrencilere güzel notlar aldırmak en temel hedefimizdir.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-gray-900">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-yellow-400 mb-4">İletişim</h3>
+      <p class="mb-6">Ödeme detayları ve destek için bizimle iletişime geçebilirsiniz.</p>
+      <a href="https://t.me/+FcC0Ahmt9rw0MWJk" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-xl font-semibold btn-effect">Telegram Üzerinden Yaz</a>
+      <p class="mt-4 text-gray-400">Email: bukemre732@gmail.com</p>
+    </div>
+  </section>
+
+  <a href="https://t.me/+FcC0Ahmt9rw0MWJk" class="floating-btn bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-full shadow-lg btn-effect">💬 Canlı Destek</a>
+
+  <footer class="bg-gray-900 text-center py-6 text-gray-400 text-sm">
+    %100 doğruluk teminatı verilmemektedir.<br>
+    © 2025 QuizMate. Tüm hakları saklıdır.
+  </footer>
+</body>
+</html>
